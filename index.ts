@@ -3,8 +3,12 @@
 import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
-  { message: "Enter First Number", type: "number", name: "firstNum" },
-  { message: "Enter Second Number", type: "number", name: "secondNum" },
+  { message: "Enter First Number", 
+  type: "number", 
+  name: "firstNum" },
+  { message: "Enter Second Number", 
+  type: "number", 
+  name: "secondNum" },
   {
     message: "Select one of the operator",
     type: "list",
